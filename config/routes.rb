@@ -6,7 +6,7 @@ Kubbium::Application.routes.draw do
   root 'pages#index'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  match 'google853bcb383f8958fc' => 'pages/google853bcb383f8958fc'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
