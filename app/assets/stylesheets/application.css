@@ -13,11 +13,13 @@
  */
 
 body {
+	background-color:#ffffff;
+	/* photo background
 	background: url(eastin_kubb.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .container {
@@ -25,14 +27,9 @@ body {
 	width:1000px;
 	height:1380px;
 	margin-left:auto;
-	margin-bottom:0px;
 	margin-right:auto;
-	margin-top:0px;
-	z-index:7;
+	margin-top:0;
 	padding:10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #333333;
 }
 
 .right {
@@ -41,13 +38,6 @@ body {
 }
 
 .left {
-	width:700px;
-	float:left;
-}
-
-.item {
-	width:200px;
-	margin-left:5px;
-	margin-right:5px;
+	width:680px;
 	float:left;
 }
