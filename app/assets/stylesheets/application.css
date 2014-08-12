@@ -22,12 +22,11 @@ body {
 
 .container {
 	background-color:#ffffff;
-	width:1200px;
-	height:100%;
-	min-height:1350px;
-	margin-left:5%;
+	width:1000px;
+	height:1380px;
+	margin-left:auto;
 	margin-bottom:0px;
-	margin-right:5%;
+	margin-right:auto;
 	margin-top:0px;
 	z-index:7;
 	padding:10px;
@@ -42,7 +41,7 @@ body {
 }
 
 .left {
-	width:880px;
+	width:700px;
 	float:left;
 }
 
